@@ -47,7 +47,16 @@
 }
 
 .css-1hw9j7s{
-    background-color:#8a3e3e !important;
+    width:170px !important;
+    height:55px !important;
+    border:none !important;
+    border-radius:10px;
+    background-color: #8A3E3E !important;
+    color:white;
+    font-size: 20px !important;
+    font-family: 'Poppins', sans-serif !important;
+    transition:all 0.2s ease-in-out !important;
+    text-transform:capitalize !important;
 }
 
 .callToAction:hover{

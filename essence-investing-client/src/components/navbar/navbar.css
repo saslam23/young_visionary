@@ -1,5 +1,7 @@
 .css-5poeop{
-    background-color:#111111 !important;
+    background-color: none !important;
+    opacity: 1 !important;
+    transition: all .3s ease-in-out !important;
     box-shadow:none !important;
     margin-right: 1.3rem !important;
 }
