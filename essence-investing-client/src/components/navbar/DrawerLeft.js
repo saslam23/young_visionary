@@ -48,7 +48,7 @@ export default function DrawerLeft({menuToggle,openCloseMenu}) {
           open={menuToggle}
           onClose={() => openCloseMenu()}
         >
-           <div><img  style={{height:'100px', width:'100px', marginLeft:'1rem', marginTop:'1rem'}} src="/assets/young_visionary_logo.svg" alt="logo"/></div>
+           <Link  hashSpy={true} smooth={true} offset={-120} to="hero"><img  style={{height:'100px', width:'100px', marginLeft:'1rem', marginTop:'1rem'}} src="/assets/young_visionary_logo.svg" alt="logo"/></Link>
              {pages.map((page) => (
               <Link activeClass="item-active" style={{cursor:'pointer'}} offset={-120} hashSpy={true} smooth={true}  to={page.toLink} key={page.pageTitle}
             /*   onClick={handleCloseNavMenu} */
