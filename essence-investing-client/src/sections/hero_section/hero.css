@@ -1,0 +1,77 @@
+.hero-container{
+    position:relative;
+    width:100%;
+}
+.hero-background{
+    background-image:url('../../../public/assets/young_visionaries_background.png');
+    width:100%;
+    display:flex;
+    background-repeat: no-repeat;
+
+    background-size:cover;
+    height:100vh;
+}
+
+.hero-content{
+    position:absolute;
+    top:30%;
+    left:0;
+    right:0;
+}
+
+.hero-title{
+    display:flex;
+    justify-content: center;
+    color:white;
+    font-family:'Poppins', sans-serif;
+    font-weight:300;
+    margin-left:2rem;
+
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root{
+
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root.callToAction{
+    width:170px;
+    height:55px;
+    border:none;
+    border-radius:10px;
+    background-color: #8A3E3E !important;
+    color:white;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    transition:all 0.2s ease-in-out;
+    text-transform:capitalize;
+}
+
+
+
+.callToAction:hover{
+    background-color:#f9f9f9 !important;
+    color:#111111;
+    box-shadow: 0 0 12px #d3d3d3;
+}
+/* .essence{
+animation-name: essence-animate;
+animation-duration: 2s;
+} */
+
+@keyframes essenceAnimate {
+    0%{
+        transform: translateY(200px);
+        opacity:0
+    }
+    100%{
+        transform: translateY(0);
+        opacity:1;
+    }
+}
+
+
+@media screen and (max-width: 1500px) {
+    .hero-background{
+        background-position:bottom;
+    }
+    }

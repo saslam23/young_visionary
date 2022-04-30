@@ -1,0 +1,10 @@
+.about-excerpt{
+    max-width:550px;
+    font-size:18px;
+    text-align:justify;
+    font-family:'Poppins', sans-serif;
+}
+
+#about{
+    background-color:#f9f9f9;
+}

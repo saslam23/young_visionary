@@ -1,0 +1,10 @@
+#features{
+    background-color: #f9f9f9;
+}
+
+.features-container{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-wrap:wrap;
+}

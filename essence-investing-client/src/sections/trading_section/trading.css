@@ -1,0 +1,15 @@
+#trading{
+    background-color:#111111;
+}
+
+#crypto{
+    background-color:#1d1d1d;
+}
+
+
+.portfolio-excerpt{
+    max-width:650px;
+    font-size:16px;
+    text-align:justify;
+    font-family:'Poppins', sans-serif;
+}

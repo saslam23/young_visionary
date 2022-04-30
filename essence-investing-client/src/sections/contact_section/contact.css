@@ -1,0 +1,17 @@
+
+#contact{
+    background-color:#f9f9f9;
+    padding-bottom:7rem;
+}
+
+.email{
+    font-family: 'Poppins', sans-serif;
+    font-weight:300;
+}
+
+.phone{
+    font-family: 'Poppins', sans-serif;
+    font-weight:300;
+    color:white;
+    margin-top:2rem;
+}

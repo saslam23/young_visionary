@@ -1,0 +1,17 @@
+{
+  "name": "essence_investing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "cd essence-investing-client && npm install && npm run build"
+  },
+  "author": "Saad Aslam",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "heroku-ssl-redirect": "^0.0.4"
+  }
+}

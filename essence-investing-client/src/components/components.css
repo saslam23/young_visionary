@@ -1,0 +1,16 @@
+.feature-excerpt{
+    font-size:20px;
+    max-width:400px;
+    text-align:left;
+    font-family: 'Poppins', sans-serif;
+}
+.feature-title{
+    text-align:left;
+}
+
+.individual-card{
+    display:flex;
+    align-items:center; 
+    justify-content:space-evenly;
+    margin:0rem 2rem 10rem 2rem;
+}
