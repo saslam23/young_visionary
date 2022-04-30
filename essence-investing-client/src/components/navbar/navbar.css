@@ -1,6 +1,11 @@
+.css-5poeop{
+    background-color:none !important;
+    box-shadow:none !important;
+    margin-right: 1.3rem !important;
+}
 
 .nav-style{
-        background-color: none!important;
+        background-color: none !important;
     opacity: 1;
     transition: all .3s ease-in-out !important;
 }
@@ -64,6 +69,9 @@
     max-width: none;
 }
 
+.css-1l1167e{
+    display:none !important;
+}
 
 
 @media screen and (max-width: 1550px) {}
@@ -90,5 +98,8 @@
 
     .css-1pz7awu-MuiButtonBase-root-MuiIconButton-root {
         display: inline-flex !important;
+    }
+    .css-1l1167e{
+        display:inline-flex !important;
     }
 }
