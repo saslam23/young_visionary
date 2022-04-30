@@ -1,10 +1,12 @@
 .css-5poeop{
+    position:fixed !important;
     background-color: transparent !important;
     opacity: 1 !important;
     transition: all .3s ease-in-out !important;
     box-shadow:none !important;
     margin-right: 1.3rem !important;
     right:none !important;
+    left:0 !important;
 }
 
 .nav-style{
