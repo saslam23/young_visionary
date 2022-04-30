@@ -93,3 +93,8 @@ animation-duration: 2s;
         background-position:bottom;
     }
     }
+    @media screen and (max-width: 500px) {
+        .hero-content{
+            transform:translateY(-75px)
+        }
+        }
