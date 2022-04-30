@@ -14,7 +14,7 @@
 
 .nav-style.scroll {
     background-color: #111111 !important;
-    opacity: 0.9;
+    opacity: 0.9 !important;
     transition: all .3s ease-in-out !important;
 }
 
