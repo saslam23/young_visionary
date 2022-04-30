@@ -45,10 +45,13 @@ export default function Hero() {
             </>
             )
           })}
+
         </div>
-        <div data-aos="fade-in" data-aos-duration="3000" >
+        <p style={{transform:'translateY(-30px)'}} data-aos="fade-in" data-aos-duration="3000" className="slogan">Your ace in investing.</p>
+        <div data-aos="fade-in" data-aos-duration="1500" >
         <a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://discord.gg/4y3RfHHU5h"><Button  variant="contained" className="callToAction">Join Now</Button></a>
         </div>
+
         </div>
         </div>
     </div>
