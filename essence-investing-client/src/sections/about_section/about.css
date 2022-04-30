@@ -8,3 +8,14 @@
 #about{
     background-color:#f9f9f9;
 }
+.about-image{
+    height:450px; width:550px;
+}
+
+@media screen and (max-width: 650px) {
+    .about-image{
+        max-height:350px;
+        min-height:200px;
+        width:375px;
+    }
+}

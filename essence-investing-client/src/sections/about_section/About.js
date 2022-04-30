@@ -28,7 +28,7 @@ export default function About() {
                 </p>
             </div>
             <div>
-                <img style={{height:'450px', width:'550px'}} src="/assets/about-graphic.png" alt="about-us"/>
+                <img className="about-image" style={{}} src="/assets/about-graphic.png" alt="about-us"/>
             </div>
          
         </div>
