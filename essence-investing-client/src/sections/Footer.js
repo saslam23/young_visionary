@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <div id="footer">
 
-      Copyright &copy; {(new Date().getFullYear())} Essence Investing, Inc.
+      Copyright &copy; {(new Date().getFullYear())} Young Visionary, llc.
     <div>
 
     </div>
