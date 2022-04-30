@@ -47,7 +47,7 @@ export default function Hero() {
           })}
         </div>
         <div data-aos="fade-in" data-aos-duration="3000" >
-        <Button  variant="contained" className="callToAction">Join Now</Button>
+        <a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://discord.gg/4y3RfHHU5h"><Button  variant="contained" className="callToAction">Join Now</Button></a>
         </div>
         </div>
         </div>

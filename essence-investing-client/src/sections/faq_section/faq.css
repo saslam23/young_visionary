@@ -1,5 +1,6 @@
 #faq{
     background-color:#111111;
+
 }
 
 .css-7cda4y-MuiPaper-root-MuiAccordion-root:last-of-type{
@@ -8,6 +9,11 @@
 }
 
 .css-1iji0d4{
+    background-color: #414141 !important;
+    color: #f9f9f9 !important;
+}
+
+.css-1jvg4eb {
     background-color: #414141 !important;
     color: #f9f9f9 !important;
 }

@@ -15,12 +15,12 @@ export default function Faq() {
   }
   return (
       <>
-    <div style={{paddingBottom:'2rem', paddingLeft:'5px', paddingRight:'5px'}} id="faq">
+    <div style={{paddingBottom:'5rem', paddingLeft:'5px', paddingRight:'5px'}} id="faq">
     <h1 style={{color:'white'}} className="section-title">Faq</h1>
       {faqData.map((faq) =>{
         return(
           <>
-          <div key={faq.id} style={{margin:'auto', maxWidth:'1000px', textAlign:'center', marginBottom:'1rem'}}>
+          <div data-aos="fade-up" data-aos-duration={faq.duration}  key={faq.id} style={{margin:'auto', maxWidth:'1000px', textAlign:'center', marginBottom:'1rem'}}>
           <Accordion sx={{marginBottom:'5px'}} expanded={expanded === faq.panel} onChange={handleChange(faq.panel)}>
           <AccordionSummary
           expandIcon={<ExpandMoreIcon />}

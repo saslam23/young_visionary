@@ -6,8 +6,8 @@ export default function Crypto() {
     <div id="crypto">
     <div className="content-container">
         <div style={{color:'white', margin:'0 0 3rem 0'}}>
-            <h1 style={{fontSize:'40px'}}>Crypto Space</h1>
-            <p className="portfolio-excerpt" >
+            <h1  data-aos='fade-in' data-aos-duration="1000" style={{fontSize:'40px'}}>Crypto Space</h1>
+            <p  data-aos='fade-in' data-aos-duration="1500" className="portfolio-excerpt" >
             Cryptocurrency, Blockchain, Satoshi Nakamoto, Bitcoin, what does it
 all mean?
 <br></br>
@@ -42,9 +42,9 @@ additional questions or if you want to learn more about crypto
 currencies from leading experts in the field today, click below to join our discord.  
     
          </p>
-            <Button className="callToAction" variant="contained">Get Started</Button>
+         <a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://discord.gg/4y3RfHHU5h"><Button className="callToAction" variant="contained">Get Started</Button></a>
         </div>
-        <div><img style={{height:'700px', width: '350px', margin:'4rem 0 4rem 0'}} alt="phone_showing_gains" src="/assets/phone-crypto.png"/></div>
+        <div data-aos='zoom-in' data-aos-duration="1000" ><img style={{height:'700px', width: '350px', margin:'4rem 0 4rem 0'}} alt="phone_showing_gains" src="/assets/phone-crypto.png"/></div>
     </div>
     </div>
   )
