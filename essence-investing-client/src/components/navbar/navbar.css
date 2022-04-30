@@ -4,6 +4,7 @@
     transition: all .3s ease-in-out !important;
     box-shadow:none !important;
     margin-right: 1.3rem !important;
+    right:none !important;
 }
 
 .nav-style{
