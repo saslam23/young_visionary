@@ -24,7 +24,7 @@ export default function Hero() {
   })
   return (
     <AnimatePresence exitBeforeEnter>
-    <div id="hero" className="hero-container">
+    <div id="young-visionary" className="hero-container">
         <div className="hero-background">
         </div>
         <div className="hero-content">

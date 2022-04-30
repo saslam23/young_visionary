@@ -30,7 +30,7 @@ const pages = [
   ,
   {
     image:'/assets/young_visionary_logo.svg',
-    toLink:'hero'
+    toLink:'young-visionary'
   },
   {
     pageTitle:'About',
