@@ -2,7 +2,7 @@ const featureData = [
     {
         id: 0,
         title:'Community',
-        excerpt:'Essence Investing provides around the clock support for everyone of our 8000+ members',
+        excerpt:'Young Visionary provides around the clock support for everyone of our members',
         image:'/assets/person-ei.png',
         duration:500
     },

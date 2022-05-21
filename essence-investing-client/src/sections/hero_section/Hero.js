@@ -48,8 +48,9 @@ export default function Hero() {
 
         </div>
         <p style={{transform:'translateY(-30px)'}} data-aos="fade-in" data-aos-duration="3000" className="slogan">Your ace in investing.</p>
-        <div data-aos="fade-in" data-aos-duration="1500" >
-        <a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://discord.gg/4y3RfHHU5h"><Button  variant="contained" className="callToAction">Join Now</Button></a>
+        <div style={{display:'flex', justifyContent:'center'}} data-aos="fade-in" data-aos-duration="1500" >
+        <a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none', marginRight:'15px'}} href="https://discord.gg/4y3RfHHU5h"><Button  variant="contained" className="callToAction">Join Now</Button></a>
+        <a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://upgrade.chat/882725389619830784"><Button  variant="contained" className="callToAction">Join Premium</Button></a>
         </div>
 
         </div>
