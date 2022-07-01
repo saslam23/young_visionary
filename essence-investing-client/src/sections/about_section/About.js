@@ -1,5 +1,6 @@
 import React from 'react'
 import './about.css';
+import Button from '@mui/material/Button'
 export default function About() {
   return (
     <div id="about-us">
@@ -30,8 +31,11 @@ export default function About() {
             <div>
                 <img  data-aos='zoom-in' data-aos-duration="1000" className="about-image" style={{}} src="/assets/about-graphic.png" alt="about-us"/>
             </div>
-         
+     
         </div>
+        <div style={{backgroundColor:'#8A3E3E', height:'auto', width:'100%', textAlign:'center'}}>
+        <a target="_blank" rel="noopener noreferrer" style={{textDecoration:'none'}} href="https://discord.gg/4y3RfHHU5h"><Button style={{margin:'1.5rem 0'}} variant="contained" className="callToAction2">Join Now</Button></a>
+         </div>
     </div>
   )
 }

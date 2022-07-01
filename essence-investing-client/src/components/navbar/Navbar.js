@@ -21,7 +21,7 @@ const pages = [
     pageTitle:'Trading',
     toLink:'trading',
     offset:-110
-  },
+  },  
   {
     pageTitle:'Crypto',
     toLink:'crypto',
